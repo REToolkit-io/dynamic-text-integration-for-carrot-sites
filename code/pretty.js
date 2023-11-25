@@ -1,4 +1,5 @@
 (function () {
+    console.log("non-minified version running");
 	const queryString = window.location.search;
 
 	const urlParams = new URLSearchParams(queryString);
